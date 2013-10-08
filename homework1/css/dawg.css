@@ -10,15 +10,13 @@ body {
 	background-image: url("../img/pizza1.jpg");
 	font-family: Raleway, sans-serif;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 20px;
 	width: 75%;
 	margin: 0 auto;
+	min-width: 1410px;
 }
 
  nav img {
-/*	position: absolute;
-	right: 100px;
-	top: 100px;*/
 	position: relative;
 	top: 85px;
 	left: 25px;
@@ -41,10 +39,10 @@ nav li {
 
 a {
 	text-decoration: none;
+	color: white;
 }
 
 nav ul a {
-	color: white;
 	font-family: Oswald, sans-serif;
 	font-weight: 700;
 	font-size: 24px;
@@ -56,14 +54,138 @@ nav ul a:hover {
 	background-color: white;
 }
 
-ul {
+nav ul {
 	background-color: #34036B;
 }
 
 #main {
-	background-image: url("../img/brick_bw.jpg");
-	font-size: 36px;
-	margin-top: 100px;
-	color: white;
-	padding: 100px;
+	background-image: url("../img/paperv2.jpg");
+	margin: 100px 0px 25px 0px;
+	padding: 50px;
+	float: right;
+	width: 800px;
 }
+
+aside {
+	width: 20%;
+	min-width: 325px;
+	color: white;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 10px;
+	border-bottom-width: 10px;
+	position: fixed;
+	top: 380px;
+	font-family: Oswald;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+#copyright {
+	position: fixed;
+	top: 580px;
+	font-size: 16px;
+}
+
+#social {
+	float: right;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#social img {
+	width: 21px;
+	float: right;
+	clear: both;
+}
+
+#businessInfo {
+	float:left;
+}
+
+.together {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.together p {
+	margin-top: 5px;
+}
+
+#social img {
+	margin-top: 10px;
+}
+
+ h1 {
+	font: bold 32px Oswald, sans-serif;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	margin-bottom: 5px;
+	font-size: 22px;
+}
+
+#column1, #column2 {
+	width: 350px;
+	padding: 25px;
+}
+
+#column1 {
+	float: left;
+}
+
+#column2 {
+	float: right;
+}
+
+dt {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0px 0px 0px;
+}
+
+.menuPart {
+	margin: 20px 0px 20px 0px;
+}
+
+#pizzaSizes {
+	margin: 20px 0px 20px 0px;
+	padding: 25px;
+	font-style: italic;
+}
+
+#pizzaSizes li {
+	margin: 5px 10px 5px 10px;
+}
+
+#about h1, #about h2, #about p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#about h2 {
+	display: inline-block;
+}
+
+#about img {
+	width: 800px;
+}
+
+#menuHeader {
+	background-image: url("../img/pizza-order_small.jpg");
+	height: 250px;
+}
+/*
+#menuHeader h1 {
+	border-style: none;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	font-size: 150px;
+}
+*/

@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/dawg.css">
+</head>
+<body>
+	<!--#include virtual="inc/header.html"-->
+	<div id="main">
+		<p>Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!</p>
+	</div>
+	<!--#include virtual="inc/footer.html"-->
+</body>
+</html>
