@@ -19,7 +19,7 @@
 	color: white;
 }
 
-.navbar-default, .navbar-collapse, .navbar-default, .navbar-form, .navbar-nav {
+.navbar-default, .navbar-nav {
 	border: none;
 	background-color: #34036B; /*rgb(52, 3, 107)*/
 	margin: 0;
