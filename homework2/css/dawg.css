@@ -1,0 +1,167 @@
+/*Robby Brosman, SID# 1142386 Dawg Pizza CSS*/
+
+/*Raleway and Oswald*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,900,700|Oswald:400,700,300);
+
+#logo-box {
+	float:left;
+	padding: 20px;
+	margin-right: 20px;
+	background-color: white;
+}
+
+#logo img {
+	height: 100px;
+}
+
+.navbar-collapse {
+	padding-left: 200px;
+	color: white;
+}
+
+.navbar-default, .navbar-collapse, .navbar-default, .navbar-form, .navbar-nav {
+	border: none;
+	background-color: #34036B; /*rgb(52, 3, 107)*/
+	margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	line-height: 140px;
+	padding: 0px;
+	padding: 0px 10px 0px 10px;
+	font-family: Oswald, sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	background-color: #34036B;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #34036B;
+	background-color: white;
+}
+
+#home {
+	background-image: url("../img/pizza1.jpg");
+	color: white;
+	font-size: 48px;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px black;
+	padding: 200px;
+}
+
+#menu {
+	background-image: url("../img/pizza-order.jpg");
+	color: white;
+}
+
+#about {
+	background-image: url("../img/pizza-oven.jpg");
+	color: white;
+}
+
+#jobs {
+	background-color: black;
+	color: white;
+}
+
+body {
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	padding-bottom: 70px;
+	padding-top:140px;
+}
+
+nav ul a:hover {
+	color: #34036B;
+	background-color: white;
+}
+
+
+footer {
+	color: white;
+	background-color: rgba(52, 3, 107, .9);
+	position: fixed;
+	bottom:0px;
+	font-family: Oswald;
+	width:100%;
+	padding-bottom: 5px;
+	vertical-align: 0%;
+	overflow:hidden;
+}
+
+footer p, footer a {
+	display: inline-block;
+	margin: 5px 20px 5px 0px;
+	color: white;
+	text-decoration: none;
+	vertical-align: 0%;
+	font-size: 18px;
+}
+
+footer a img {
+	height: 50px;
+	vertical-align: 0%;
+}
+
+
+ h1 {
+	font: bold 32px Oswald, sans-serif;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+dt {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0px 0px 0px;
+}
+
+ #menu .container {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+#about .container {
+	background-color: rgba(0,0,0, .5);
+}
+
+.jumbotron {
+	margin: 0;
+	overflow: hidden;
+}
+
+#home, #menu, #about {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+	position:fixed;
+	top: 0px;
+	width:100%;
+	height:100px;
+	opacity: .9;
+	z-index:10000;
+}
+
+#twitter-widget-0 {
+	height: 40px;
+}
+
+#gmail {
+	margin-left: 20px;
+}
+
+a:focus {
+	border: 5px dotted red;
+	background-color: yellow;
+}

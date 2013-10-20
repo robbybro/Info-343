@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" type="text/css" href="css/dawg.css">
+</head>
+<body>
+	<!--#include virtual="inc/header.html"-->
+
+	<!--#include virtual="inc/footer.html"-->
+</body>
+</html>
