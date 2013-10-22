@@ -1,0 +1,485 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "inc/header.html",
+			"settings":
+			{
+				"buffer_size": 1185,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/footer.html",
+			"settings":
+			{
+				"buffer_size": 1493,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/menu.html",
+			"settings":
+			{
+				"buffer_size": 2366,
+				"line_ending": "Windows",
+				"name": "m"
+			}
+		},
+		{
+			"file": "index.shtml",
+			"settings":
+			{
+				"buffer_size": 1173,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/about.html",
+			"settings":
+			{
+				"buffer_size": 1917,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/jobs.html",
+			"settings":
+			{
+				"buffer_size": 139,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/dawg.css",
+			"settings":
+			{
+				"buffer_size": 2523,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Robby/Dropbox/Info 343/homework2/index.shtml",
+		"/C/Users/Robby/Dropbox/Husky-Running-Club/header.php",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/css/reset.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/inc/footer.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/jobs.shtml",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/menu.shtml",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/about.shtml",
+		"/C/Users/Robby/Dropbox/Info 343/homework2/inc/header.html",
+		"/C/Users/Robby/Documents/school/info360/assignment3/iAir/css/styles.css",
+		"/C/Users/Robby/Documents/school/info360/assignment3/iAir/index.html",
+		"/C/Users/Robby/Desktop/timetable.jpg",
+		"/C/Users/Robby/Documents/school/info360/assignment3/iAir/bootstrap-3.0.0/getting-started.html",
+		"/C/Users/Robby/Desktop/colorchangerd/styles.css",
+		"/C/Users/Robby/Desktop/colorchangerd/index.html",
+		"/C/Users/Robby/Documents/lab3/css/styles.css",
+		"/C/Users/Robby/Documents/lab3/index.html",
+		"/C/Users/Robby/Documents/robbybro/website/landingPage/index.html",
+		"/C/Users/Robby/Desktop/reset.css",
+		"/C/Users/Robby/Dropbox/Info 343/homework1/css/reset.css",
+		"/C/Users/Robby/Documents/robbybro/website_Old/index.html",
+		"/C/Users/Robby/Documents/robbybro/index.html",
+		"/C/Users/Robby/Dropbox/Info 343/homework1/jobs.shtml",
+		"/C/Users/Robby/Documents/lab2/index.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"copyright",
+			"\">\n",
+			"header",
+			"middle",
+			"vertical-align",
+			"jumbotron",
+			"50px",
+			".shtml",
+			"spicy",
+			"shadow",
+			"h3",
+			"h2",
+			"italic",
+			"h3",
+			"h4",
+			"h3",
+			"h2",
+			"h4",
+			"<p>Business Hours</p>\n			<p>10:00am - 11:00pm, Monday - Saturday</p>",
+			"100px",
+			"padding",
+			"h4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "inc/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								696,
+								696
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 49.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1493,
+								1493
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "m",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.shtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "inc/jobs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/dawg.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1583.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "homework2.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
