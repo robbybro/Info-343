@@ -170,7 +170,9 @@ a:focus {
 	background-image: url(../img/logo-vertical.png);
 	height:100px;
 	width: 93px;
+	background-size: cover;
 }
 .navbar-brand:hover {
 	background-image: url(../img/logo-vertical_negative.png);
+	background-size: cover;
 }
