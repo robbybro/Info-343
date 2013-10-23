@@ -25,16 +25,44 @@
 	margin: 0;
 }
 
-.navbar-default .navbar-nav>li>a {
-	color: white;
-	line-height: 140px;
-	padding: 0px;
-	padding: 0px 10px 0px 10px;
-	font-family: Oswald, sans-serif;
-	font-weight: 700;
-	font-size: 24px;
-	background-color: #34036B;
+
+
+
+.navbar-default {
+    background-color: #34036B;
 }
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover {
+    background-color: #FFF;
+    color: #34036B;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-family: Oswald, sans-serif;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-default .navbar-nav>li>a {
+		color: white;
+		line-height: 140px;
+		padding: 0px;
+		padding: 0px 10px 0px 10px;
+		font-size: 24px;
+		background-color: #34036B;
+	}
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #FFF;
+    color: #34036B;
+}
+
 
 .navbar-default .navbar-nav>li>a:hover {
 	color: #34036B;
@@ -173,6 +201,6 @@ a:focus {
 	background-size: cover;
 }
 .navbar-brand:hover {
-	background-image: url(../img/logo-vertical_negative.png);
+	background-image: url(../img/logo_vertical_negative.png);
 	background-size: cover;
 }
