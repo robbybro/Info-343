@@ -1,0 +1,176 @@
+/*Robby Brosman, SID# 1142386 Dawg Pizza CSS*/
+
+/*Raleway and Oswald*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,900,700|Oswald:400,700,300);
+
+body {
+	background-image: url("../img/pizza1.jpg");
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	font-size: 180%;
+	margin-top: 80px;
+}
+
+header {
+	position:fixed;
+	top: 0px;
+	width:100%;
+	opacity: .9;
+	z-index:10000;
+}
+
+
+
+.navbar-brand {
+	background-color: #FFF;
+}
+
+.navbar-brand:hover {
+	background-color: #652C90;
+    color: #34036B;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+.navbar-collapse {
+	padding-left: 200px;
+	color: white;
+}
+
+.navbar-default, .navbar-nav {
+	border: none;
+	background-color: #34036B; /*rgb(52, 3, 107)*/
+	margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-family: Oswald, sans-serif;
+	font-weight: 700;
+	line-height: 80px;
+	padding: 0px 10px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #34036B;
+	background-color: white;
+}
+
+.navbar-nav li a, .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-nav li a:hover {
+	transition: .2s;
+	-webkit-transition: .5s; /* Safari */
+}
+
+#home {
+	font-size: 150%;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+}
+
+#jobs {
+	background-color: black;
+	color: white;
+}
+
+ h1 {
+	font: bold 32px Oswald, sans-serif;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+dt {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0px 0px 0px;
+}
+
+.container {
+    background-image: url("../img/paperv2.jpg");
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+
+    margin-top: 25px;
+}
+
+.jumbotron {
+	width: 68%;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+a:focus {
+	border: 5px dotted red;
+	background-color: yellow;
+}
+
+aside {
+	background-color: rgba(255,255,255, .7);
+	color: #34036B;
+	font-family: Oswald;
+	z-index: 9999;
+	/*overwrite Home's madness*/
+	font-weight: 400;
+	text-shadow: none;
+	padding: 0px;
+}
+
+aside a {
+	color: #34036B;
+}
+
+aside dt {
+	transition: .2s;
+	-webkit-transition: .5s; /* Safari */
+}
+
+aside dt:hover {
+	background-color: #34036B;
+	color: white;
+}
+
+aside dt, aside dd, footer p {
+	text-align:center;
+}
+
+footer {
+	color: white;
+}
+
+
+@media screen and (min-width: 1380px) {
+	#home {
+		font-size: 250%;
+		padding: 200px;
+	}
+
+}
+
+@media screen and (min-width: 940px) and (min-height: 650px) {
+	aside {
+		position: fixed;
+		width: 15%;
+		left: 10px;
+		top: 280px;
+	}
+}

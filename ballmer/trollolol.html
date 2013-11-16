@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Trollololol</title>
+<script src="jquery-1.10.2.js"></script>
+<script>
+$(document).ready(function() {
+	// format all images on page:
+	$("img").each(function() {
+		$(this).css('float', 'left');
+		$(this).css('width', '200px');
+	});
+
+	// move stuff around
+	for(var i = 0; i < 1000; i++){
+	var xCoord = XCoord();
+	var yCoord = YCoord();
+		$("img").each(function() {
+			$(this).animate(
+			{
+			left: xCoord+'px',
+			top: yCoord+'px'
+			}, 100);
+		});
+	}
+
+	// kill when clicked
+
+}); // end ready
+
+// picks the x coordinate for the object
+function XCoord() {
+	var windowWidth = $(window).width(true);
+	var randomNumber = Math.floor(windowWidth*Math.random());
+	return randomNumber;
+}
+
+// picks the y coordinate for the object
+function YCoord() {
+	var windowHeight = $(window).height(true);
+	var randomNumber = Math.floor(windowHeight*Math.random());
+	return randomNumber;
+}
+</script>
+</head>
+	<h1>Whack-a-Steve-Ballmer</h1>
+	<h2>The Troll king is retiring!!!	 This is cause for celebration!!!</h2>
+	<div id="trollKing" style="overflow:hidden, display: inline">
+		<img id="ballmer1" src="img/ballmer1.jpg" style="left: 200px, top=100px"/><!--
+		<img id="ballmer2" src="img/ballmer2.jpg" />
+		<img id="ballmer3" src="img/ballmer3.jpg" />
+		<img id="ballmer4" src="img/ballmer4.jpg" />
+		<img id="ballmer5" src="img/ballmer5.jpg" />
+		<img id="ballmer6" src="img/ballmer6.jpg" />
+		<img id="ballmer7" src="img/ballmer7.jpg" />
+		<img id="ballmer8" src="img/ballmer8.jpg" />
+		<img id="ballmer9" src="img/ballmer9.jpg" />
+		<img id="ballmer10" src="img/ballmer10.jpg" />
+		<img id="troll" src="img/ballmer11.jpg" /> -->
+
+	</div>
+<body>
+</body>
+</html>
