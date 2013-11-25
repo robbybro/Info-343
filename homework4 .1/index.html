@@ -55,6 +55,7 @@
 				<dd id="socialChild"><a href="https://twitter.com/dawgpizza" class="twitter-follow-button"data-show-count="true" data-size="small">Follow @dawgpizza</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 				</dd>
+			<dt class="order">ORDER</dt>
 		</dl>
 	</aside>
 	<!-- ...........HOME.................. -->
@@ -62,7 +63,29 @@
 		<p>Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!</p>
 		</div>
 	</div>
-<!--..........Menu...........-->
+	<!--..........Menu...........-->
+	<div class='cart'>
+		<div class='customer-info'>
+				<div>
+					<label class="control-label" for="first-name">Name</label>
+		            <input type="text" class="form-control" name="first-name" id="first-name" placeholder="first" required>
+		             <input type="text" class="form-control" name="last-name" id="last-name" placeholder="last" required>
+	             </div>
+	             <div>
+		            <label class="control-label" for="addr-1">Address</label>
+		                <input type="text" class="form-control" name="addr-1" id="addr-1" placeholder="street address" required>
+		                <input type="text" class="form-control" name="addr-2">
+	            </div>
+	            <div>
+		            <input type="text" class="form-control" name="zip" placeholder="zip code" required>
+		            <input type="tel" class="form-control" name="phone" id="phone" placeholder="phone number" required>
+	            </div>
+	    </div>
+		<h2>My Cart</h2>
+		<div class='cart-container'></div>
+		<div class='total-container'>Total: $<span class='total'></span></div>
+		<button type="button" class="btn btn-primary btn-lg place-order">Place Order</button>
+	</div>
 	<div class="jumbotron" id="menu">
 		<div itemscope class="container">
 			<h1><span itemrop="name">Dawg Pizza</span> Menu</h1>
@@ -79,7 +102,7 @@
 					<!--Veggie Pizzas go here!-->
 					</dl>
 				</div>
-				</div>
+			</div>
 				<div>
 					<p>All our pizzas are made with hand-thrown thin crust, baked in real world ovens. Choose from one of these sizes:</p>
 					<ul>
@@ -100,6 +123,7 @@
 						<!-- Drinks go here -->
 					</ul>
 				</div>
+				<button type="button" class="btn btn-primary btn-lg order">Order Here</button>
 		</div>
 	</div>
 	<!--..........About..........-->
@@ -119,9 +143,36 @@
 		<p id="copyright"><span class="glyphicon glyphicon-copyright-mark"></span> 2013 Dawg Pizza. All Rights Reserved.</p>
 
 		<!-- templates -->
-		<div class="pizza-template">
-			<dt class="name"></dt>
-			<dd class="description"></dd>
+		<div id="templates">
+			<div class="pizza-template">
+				<dt class="name"></dt>
+				<dd class="description"></dd>
+				<select class='form-control col-xs-2' name="size">
+					<option value="">Small</option>
+					<option value="">Medium</option>
+					<option value="">Large</option>
+				</select>
+				<button class='btn btn-default form-control col-xs-2' data-type="" data-name="" data-size="" data-price="">Add to Cart</button>
+			</div>
+			<div class='drink-dessert-template'>
+				<li>
+					<span class="name"></span>
+					<input type='number' class='form-control col-xs-2' name='qty' placeholder='Qty'></input>
+					<button class='btn btn-default form-control col-xs-2' data-type="" data-name="" data-qty="" data-price="">Add to Cart</button>
+				</li>
+			</div>
+			<div data-index="" class='pizza-cart-object cart-object'>
+				<button type="button" class="btn btn-default btn-xs remove-item">&times;</button>
+				<span class='pizza-name'></span>
+				<span class='pizza-size'></span>
+				<span class='pizza-price'></span>
+			</div>
+			<div data-index="" class='drink-dessert-cart-object cart-object'>
+				<button type="button" class="btn btn-default btn-xs remove-item">&times;</button>
+				<span class='drink-dessert-name'></span>
+				<span class='drink-dessert-qty'></span>
+				<span class='drink-dessert-subtotal'></span>
+			</div>
 		</div>
 	</footer>
     <!-- hot links to Bootstrap JavaScript and jQuery (required by Bootstrap) -->

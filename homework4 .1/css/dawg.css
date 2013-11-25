@@ -64,7 +64,7 @@ header {
 	background-color: white;
 }
 
-.navbar-nav li a, .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-nav li a:hover {
+.cart, .navbar-nav li a, .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-nav li a:hover {
 	transition: .2s;
 	-webkit-transition: .5s; /* Safari */
 }
@@ -139,7 +139,7 @@ aside a {
 	color: #34036B;
 }
 
-aside dt {
+aside dt, .btn.btn-primary.btn-lg {
 	transition: .2s;
 	-webkit-transition: .5s; /* Safari */
 }
@@ -173,4 +173,67 @@ footer {
 		left: 10px;
 		top: 280px;
 	}
+}
+
+.btn.btn-primary.btn-lg {
+	float: right;
+	margin: 10px;
+	background-color: #34036B;
+	border-color: #34036B;
+}
+
+.btn.btn-primary.btn-lg:hover {
+	float: right;
+	margin: 10px;
+	background-color: white;
+	border-color: white;
+	color: #34036B;
+}
+
+.templates {
+	display: hidden;
+}
+
+/*override that bootstrap*/
+.col-xs-1, .col-xs-2 {
+	float: none;
+}
+
+.form-control {
+	display: inline-block;
+	width: 110px;
+}
+
+.cart{
+	position: fixed;
+	width: 68%;
+	right: 16%;
+	top: 100px;
+	padding: 10px;
+	background-color: white;
+	opacity: .3;
+	display: none; /*overriden whenn order button is clicked*/
+	z-index: 999999;
+}
+
+.cart h2 {
+	opacity: 500;
+	text-decoration: underline;
+}
+
+.cart:hover{
+	opacity: .9;
+}
+
+.customer-info {
+	display: none;
+}
+
+.customer-info .form-control {
+	width: 200px;
+	margin: 5px;
+}
+
+.btn.btn-primary.btn-lg.place-order {
+	display: none;
 }
